@@ -1,0 +1,9 @@
+Some Arduino and Python code for controlling simple vehicles.  The original design was based on components from Pololu vehicle platforms, but the code has been adapter to run on other vehicles, like one built on a Tamiya chasis.  The vehicles use basic motor controllers and various sensors.
+
+arduino-xbee - This sketch communicates to a host PC via an xbee attached to the arduino.
+
+arduino-rc - This sketch controls the vehicle using a receiver from an RC car attached to the arduino.
+
+python-client - Some python classes to interface with the arduino-xbee vehicle.  Still in the beginning phases, it includes an ncurses based GUI, or classes that can be called from the python interpreter.
+
+
